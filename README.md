@@ -1,5 +1,5 @@
-# undefined
-byundefined
+# Professional README
+byJulius B
 ![Github license](https://img.shields.io/badge/license-${license}-svg)
 ##Table of Contents
 - [Description](#description)
@@ -14,28 +14,28 @@ byundefined
 
 
 ## Description
-undefined
+The purpose of this is to create a professional README using inquirer from npm. 
 
 ## Requirements
-undefined
+Node.js and npm i inquirer
 
 ## Usage
-undefined
+javascript and screenrecorder
 
 ## License 
-![undefined License](https://img.shields.io/badge/License-undefined-blue.svg)
-This project is now covered under the undefined License. 
+![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)
+This project is now covered under the MIT License. 
 
 ## Contact Me
-  Name undefined
-  Email undefined
-  Github undefined](https://github.com/undefined/)
+  Name Julius B
+  Email juliusbags04@yahoo.com
+  Github jb1756](https://github.com/jb1756/)
 
 ## Contributors
-undefined
+jb1756 and wr
 
 ## Testing
-''undefined
+''Will upload it.
 ''## License
     
-      Licensed under the undefined license.
+      Licensed under the MIT license.
