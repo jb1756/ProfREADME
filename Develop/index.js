@@ -2,7 +2,7 @@
 // node modules
 const inquirer = require('inquirer');
 const fs = require('fs');
-const path require("path");
+const path = require("path");
 const generateMarkdown = require("./utils/generateMarkdown");
 
 
@@ -67,14 +67,14 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    return fs.writeFileSync(path.join(process.cwd(), filename), data);
+    return fs.writeFileSync(path.join(process.cwd(), fileName), data);
 }
 
 // TODO: Create a function to initialize app
 function init() {
-    inquirer.prompt(question).then((response)-> {
+    inquirer.prompt(questions).then((response) => {
         console.log("creating professional READ.md File...");
-        writeToFile("./README.md/", generateMarkdown({ ...responses }));
+        writeToFile("./README.md/", generateMarkdown({response}));
     });
 }
 

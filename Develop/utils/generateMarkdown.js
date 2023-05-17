@@ -1,8 +1,8 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
+ // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   if (license !== "none") {
-    return '![Github licebse]'
+    return '![Github license](https://img.shields.io/badge/license-${license}-svg)';
   }
   return "";
 }
@@ -11,7 +11,7 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   if (license !== "none") {
-    return '\n' [license](#license)\n';
+    return '\n* [license](#license)\n';
   }
   return "";
 }
@@ -20,38 +20,49 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if (license !== "none"){
-    return '## License
+    return `## License
     
-      Licensed under the ${license} license';
+      Licensed under the ${license} license.`;
   }
   return "";
-}
+} 
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
-by ${data.name}
+by${data.name}
 ${renderLicenseBadge(data.license)}
 ##Table of Contents
-[Description](#description)
-[Requirements](#requirements)
-[Usage](#usage)
-[Contact Me](#contact me)
-[Contributors](#contributors)
-[Testing](#testing)
+- [Description](#description)
+- [Requirements](#requirements)
+- [Usage](#usage)
+- [Contact Me](#contact me)
+- [Contributors](#contributors)
+- [Testing](#testing)
+
 ${renderLicenseLink(data.license)}
+
 ## Description
 ${data.description}
+
 ## Requirements
 ${data.require}
+
 ## Usage
 ${data.usage}
+
+## License 
+![${data.license} License](https://img.shields.io/badge/License-${data.license}-blue.svg)
+This project is now covered under the ${data.license} License. 
+
 ## Contact Me
   Name ${data.name}
   Email ${data.email}
   Github ${data.creator}](https://github.com/${data.creator}/)
+
 ## Contributors
 ${data.contributors}
+
 ## Testing
 \'\'\
 ${data.test}
