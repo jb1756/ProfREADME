@@ -39,7 +39,7 @@ jb1756 and wr
 ''## License
 
 ## Screenshot 
-![Screenshot](https://github.com/jb1756/ProfREADME/blob/a22875dcd02ad6a9746b5f6a6fbe7addbdc18547/Screenshot%20.png)
+![Screenshot](Screenshot.png)
 
 ## Video Link
 https://drive.google.com/file/d/19ZuqDrqbK6vHxymnAg7CJiObsG1CJScN/view
