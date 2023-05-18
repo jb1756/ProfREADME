@@ -1,5 +1,5 @@
-# Professional README
-byJulius B
+# Example README for submission
+byJulius B.
 ![Github license](https://img.shields.io/badge/license-${license}-svg)
 ##Table of Contents
 - [Description](#description)
@@ -14,35 +14,28 @@ byJulius B
 
 
 ## Description
-The purpose of this is to create a professional README using inquirer from npm. 
+The purpose of using inquirer and node js is to create a professional readme using commandline question created in index.js
 
 ## Requirements
-Node.js and npm i inquirer
+Node and inquirer
 
 ## Usage
-javascript and screenrecorder
+Javascript
 
 ## License 
 ![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)
 This project is now covered under the MIT License. 
 
 ## Contact Me
-  Name Julius B
-  Email juliusbags04@yahoo.com
+  Name Julius B.
+  Email juliusbags03@yahoo.com
   Github jb1756](https://github.com/jb1756/)
 
 ## Contributors
-jb1756 and wr
+jb1756
 
 ## Testing
-''Will upload it.
+''There is a video on my readme 
 ''## License
-
-## Screenshot 
-![Screenshot](https://github.com/jb1756/ProfREADME/blob/a22875dcd02ad6a9746b5f6a6fbe7addbdc18547/Screenshot%20.png)
-
-## Video Link
-https://drive.google.com/file/d/19ZuqDrqbK6vHxymnAg7CJiObsG1CJScN/view
-  README EXAMPLE IS IN THE DEVELOP FOLDER
     
       Licensed under the MIT license.
